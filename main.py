@@ -4,8 +4,7 @@ k = float(input("Ange temperatur i Kelvin: "))
 
 c = k-273.15
 
-print(f"{k} Kelvin är {c:.0f} Celsius")
-
+print(f"{k} Kelvin är {c:.0f} Celsius
 
 #C-K
 
@@ -29,4 +28,9 @@ if amount < 25:
     print(f"köp engånsbiljett")
 else:
     print(f"Köp månadskort")
+
+
+prin
+
+
 
