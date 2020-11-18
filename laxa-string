@@ -1,0 +1,33 @@
+#1
+
+name = input("Ange ditt namn för att se hur många bokstäver det har: ")
+
+print(len(name))
+
+
+#2
+
+sentence = "En bild säger mer än tusen ord, en matematisk formel säger mer än tusen bilder"
+
+string = len(sentence.split())
+
+print(str(string))
+
+
+
+#4
+
+vokaler = ['a', 'e', 'i', 'o', 'u']
+vokalerantal = 0
+mening = "Do not worry about your difficulties in Mathematics. I can assure you mine are still greater"
+
+for x in mening:
+    if x in vokaler:
+        vokalerantal = vokalerantal + 1
+print(vokalerantal)
+
+
+
+
+
+
